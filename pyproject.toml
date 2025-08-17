@@ -7,10 +7,10 @@ name = "discocry"
 version = "1.0"
 dependencies = [
 "requests", 
-"google-api-python-client",
-"google-auth-httplib2",
-"google-auth-oauthlib"
+"torch",
+"torchvision",
+"torchaudio"
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["emailclassifier"]
+packages = ["discocry"]
